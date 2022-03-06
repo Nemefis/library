@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Первая ссылка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Вторая ссылка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Третья ссылка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Четвертая ссылка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Пятая ссылка</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Шестая ссылка</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">    
+      <br>
+      <br>
+      <br>
+
+      <h1 class="shadow-none">Нет тени</h1>
+      <h1 class="shadow-sm">Маленькая тень</h1>
+      <h1 class="shadow">Тень по умолчанию/Средняя</h1>
+      <h1 class="shadow-lg">Большая тень</h1>      
+
+      <p>С помощью Bootstrap можно создавать адаптивные страницы</p>
+      <div class="row">
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">1 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">2 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">3 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">4 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">5 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">6 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">7 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">8 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">9 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">10 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: gray;">11 из 12</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: lightgray;">12 из 12</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-3" style="background-color: yellow;">1 из 3</div>
+        <div class="col-sm-6 col-lg-3" style="background-color: orange;">2 из 3</div>
+        <div class="col-sm-6 col-lg-3" style="background-color: yellow;">3 из 3</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4" style="background-color: yellow;">1 из 4</div>
+        <div class="col-sm-6 col-lg-3" style="background-color: orange;">2 из 4</div>
+        <div class="col-sm-6 col-lg-2" style="background-color: yellow;">3 из 4</div>
+        <div class="col-sm-6 col-lg-1" style="background-color: orange;">4 из 4</div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!--Таблица-->
+    <div class="container shadow-sm">
+      <table class="table-striped table table-dark table-hover table-bordered table-borderless table-sm">
+        <tr>
+          <td>Фамилия</td>
+          <td>Имя</td>
+          <td>Школа</td>
+        </tr>
+        <tr>
+          <td>Панченко</td>
+          <td>Александр</td>
+          <td>20 лицей</td>
+        </tr>
+        <tr>
+          <td>Никита</td>
+          <td>Сизов</td>
+          <td>69 школа</td>
+        </tr>
+      </table>
+      <!--Предупреждения/Оповещения-->
+      <div class="alert alert-success alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Success</b>
+      </div>
+      <div class="alert alert-info alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Info</b>
+      </div>
+      <div class="alert alert-warning alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Warning</b>
+      </div>
+      <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Danger</b>
+      </div>
+      <div class="alert alert-primary alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Primary</b>
+      </div>
+      <div class="alert alert-secondary alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        <b>Secondary</b>
+      </div>
+      <!-- Кнопки -->
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <br>
+      <br>
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <br>
+      <br>
+      <!-- Выпадающее меню -->
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary" data-toggle="dropdown">Категории</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></button>
+        <div class="dropdown-menu">
+          <a href="https://www.google.com/" target="blank" class="dropdown-item">Ссылка 1</a>
+          <a href="#" class="dropdown-item">Ссылка 2</a>
+          <span class="dropdown-item">Просто текст</span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#text">Нажми на меня и появится текст</button>
+      <div class="collapse" id="text">
+        <div class="card card-body">Привет! Это тот самый текст :)</div>
+      </div>
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#second-text">Нажми на меня и появится текст</button>
+      <div class="collapse" id="second-text">
+        <div class="card card-body">asdasdsfgsdfgsdgdfgdfs</div>
+      </div>
+      <br>
+      <br>
+      <!-- Вкладки -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" data-toggle="tab">Рецепт яблочного пирога</a>
+        </li>
+        <li class="nav-item">
+          <a href="#second" class="nav-link" data-toggle="tab">Рецепт яишницы</a>
+        </li>
+        <li class="nav-item">
+          <a href="#third" class="nav-link" data-toggle="tab">Третий блок</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+          <h1>Рецепт яблочного пирога</h1>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="tab-pane container" id="second">
+          <p>Second item</p>
+        </div>
+        <div class="tab-pane container" id="third">
+          <p>Third item</p>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
