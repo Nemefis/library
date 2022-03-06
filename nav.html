@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Панель навигации, тени, карточка</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+      <a href="#" class="navbar-brand">Логотип</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#main-menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-menu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Первая ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Вторая ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Третья ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Четвертая ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Пятая ссылка</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Шестая ссылка</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Тени -->
+      <h1 class="shadow-none">Без тени</h1>
+      <h1 class="shadow-sm">Маленька тень</h1>
+      <h1 class="shadow">Средняя тень/По умолчанию</h1>
+      <h1 class="shadow-lg">Большая тень</h1>
+      <!-- Карточка -->
+      <div class="card-wrapper">
+        <div class="card col-lg-4">
+          <img src="lego_1.png" alt="Lego" class="card-img-top" />
+          <!-- <div class="card-header">Хедер</div> -->
+          <div class="card-body">
+            <h4 class="card-title">Конструктор Lego City #1</h4>
+            <p class="card-text">
+              Еще больше игровых творческих идей подарит вашему ребенку
+              конструктор LEGO City Great Vehicles...
+            </p>
+            <a href="#" class="btn btn-block btn-primary">Добавить в корзину</a>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="lego_1.png" alt="Lego" class="card-img-top" />
+          <!-- <div class="card-header">Хедер</div> -->
+          <div class="card-body">
+            <h4 class="card-title">Конструктор Lego City #2</h4>
+
+            <p class="card-text">
+              Еще больше игровых творческих идей подарит вашему ребенку
+              конструктор LEGO City Great Vehicles...
+            </p>
+            <a href="#" class="btn btn-block btn-primary">Добавить в корзину</a>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <img src="lego_1.png" alt="Lego" class="card-img-top" />
+
+          <!-- <div class="card-header">Хедер</div> -->
+          <div class="card-body">
+            <h4 class="card-title">Конструктор Lego City #3</h4>
+            <p class="card-text">
+              Еще больше игровых творческих идей подарит вашему ребенку
+              конструктор LEGO City Great Vehicles...
+            </p>
+            <a href="#" class="btn btn-block btn-primary">Добавить в корзину</a>
+          </div>
+        </div>
+        <div class="card col-lg-4">
+          <!-- <div class="card-header">Хедер</div> -->
+          <div class="card-body">
+            <h4 class="card-title">Конструктор Lego City #4</h4>
+            <p class="card-text">
+              Еще больше игровых творческих идей подарит вашему ребенку
+              конструктор LEGO City Great Vehicles...
+            </p>
+            <a href="#" class="btn btn-block btn-primary">Добавить в корзину</a>
+          </div>
+          <img src="lego_1.png" alt="Lego" class="card-img-bottom" />
+        </div>
+        <!-- <div class="card-footer">Футер</div> -->
+      </div>
+    </div>
+
+    <!-- <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#main-menu">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Первая ссылка</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Вторая ссылка</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Третья ссылка</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Четвертая ссылка</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Пятая ссылка</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Шестая ссылка</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="shadow-none">Нет тени</h1>
+    <h1 class="shadow-sm">Маленькая тень</h1>
+    <h1 class="shadow">Тень по умолчанию/Средняя</h1>
+    <h1 class="shadow-lg">Большая тень</h1>  
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header">Хедер</div>
+            <img src="lego_1.png" alt="Lego" class="card-img-top">
+            <div class="card-body">
+                <h4 class="card-title">Конструктор лего</h4>
+                <p class="card-text">Еще больше игровых творческих идей подарит вашему ребенку конструктор LEGO City Great Vehicles...</p>
+                <a href="#" class="card-link btn btn-primary">В корзину</a>
+            </div>
+            <div class="card-footer">Футер</div>
+        </div>
+         <br>
+        <div class="card shadow-sm">
+            <div class="card-header">Хедер</div>
+            <img src="lego_1.png" alt="Lego" class="card-img-bottom">
+            <div class="card-body">
+                <h4 class="card-title">Конструктор лего</h4>
+                <p class="card-text">Еще больше игровых творческих идей подарит вашему ребенку конструктор LEGO City Great Vehicles...</p>
+                <a href="#" class="card-link btn btn-primary">В корзину</a>
+            </div>
+            <div class="card-footer">Футер</div>
+        </div>  
+    </div> -->
+  </body>
+</html>
